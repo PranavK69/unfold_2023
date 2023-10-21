@@ -6,6 +6,8 @@ module.exports = async function(deployer) {
 
   const token = await ArtToken.deployed()
 
+  console.log(token)
+
   await deployer.deploy(ArtMarketplace, token.address)
 
   const market = await ArtMarketplace.deployed()

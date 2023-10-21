@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "@openzeppelin/contracts": "^4.2.0",
+    "@openzeppelin/contracts": "^4.9.3",
     "@truffle/hdwallet-provider": "^1.4.2",
     "@types/chai": "^4.2.21",
     "chai": "^4.3.4",
